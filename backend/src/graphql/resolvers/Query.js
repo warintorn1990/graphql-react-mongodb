@@ -4,9 +4,9 @@ const Query = {
     ping(){
         return "Arm";
     },
-    // messages: async () => {
-    //     return await Message.find()
-    // }
+    message: async () => {
+        return await Message.find()
+    }
 }
 
 export default Query;
